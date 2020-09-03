@@ -1,14 +1,7 @@
 {
   "build": {
-    "env": {
-      "FIREBASE_API_KEY": "@firebase-api-key",
-      "FIREBASE_AUTH_DOMAIN": "@firebase-auth-domain",
-      "FIREBASE_DATABASE_URL": "@firebase-database-url",
-      "FIREBASE_PROJECT_ID": "@firebase-project-id",
-      "FIREBASE_STORAGE_BUCKET": "@firebase-storage-bucket",
-      "FIREBASE_MESSAGING_SENDER_ID": "@firebase-messaging-sender-id",
-      "FIREBASE_APP_ID": "@firebase-app-id",
-      "FAUNA_SERVER_KEY": "@FAUNA_SERVER_KEY"
+    "env": { 
+      "MONGODB_URI":"mongodb+srv://admin:WE50nFRqIEQtBeDw@cluster0.ngefq.mongodb.net/<dbname>?retryWrites=true&w=majority"
     }
   }
 }
